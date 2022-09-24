@@ -14,6 +14,10 @@
 #define RT5682_PID2              0x5682 //some versions of the rt5682 driver are bugged and have mismatched VID / PID
 #define RT5682_VID2              0x10EC
 
+#define NAU8825_PID              0x8825
+#define NAU8825_VID              0x1050
+#define NAU8825_VERSION          0x0001
+
 #define DA7219_PID              0x7219
 #define DA7219_VID              0x2DCF
 #define DA7219_VERSION          0x0001
