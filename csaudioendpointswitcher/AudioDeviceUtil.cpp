@@ -161,11 +161,11 @@ void AudioDeviceUtil::handleDevices(EDataFlow dataFlow, IMMDeviceCollection* dev
 
 			std::wstring comp[] =
 			{
-				L"(CoolStar ACP Audio (WDM))",
-				L"(CoolStar SST Audio (WDM))",
-				L"(CoolStar I2S Audio (WDM))",
-				L"(CoolStar SOF Audio (WDM))",
-				L"(CoolStar Audio (WDM))"
+				L"CoolStar ACP Audio (WDM))",
+				L"CoolStar SST Audio (WDM))",
+				L"CoolStar I2S Audio (WDM))",
+				L"CoolStar SOF Audio (WDM))",
+				L"CoolStar Audio (WDM))"
 			};
 
 			PWSTR p;
