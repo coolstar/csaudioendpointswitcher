@@ -22,6 +22,10 @@
 #define DA7219_VID              0x2DCF
 #define DA7219_VERSION          0x0001
 
+#define RT5663_PID              0x10EC
+#define RT5663_VID              0x5663
+#define RT5663_VERSION          0x0001
+
 //
 // These are the report ids
 //
