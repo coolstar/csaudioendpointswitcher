@@ -341,7 +341,8 @@ CheckIfOurDevice(
 		(Attributes.VendorID == RT5682_VID2 && Attributes.ProductID == RT5682_PID2) ||
 		(Attributes.VendorID == NAU8825_VID && Attributes.ProductID == NAU8825_PID) ||
 		(Attributes.VendorID == DA7219_VID && Attributes.ProductID == DA7219_PID) ||
-		(Attributes.VendorID == RT5663_VID && Attributes.ProductID == RT5663_PID))
+		(Attributes.VendorID == RT5663_VID && Attributes.ProductID == RT5663_PID) ||
+		(Attributes.VendorID == CS42L42_VID && Attributes.ProductID == CS42L42_PID))
 	{
 		TpVendorID = Attributes.VendorID;
 		
